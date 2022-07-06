@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(assets/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card {
+    margin: 175px auto;
+    width: 350px;
+    background: #FFFFFF;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+    border-radius: 15px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.card header {
+    background-image: url(assets/bg-pattern-card.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0px 0px;
+    height: 140px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+    border-radius: 50%;
+    margin: -48px auto 0;
+    border: 5px solid #FFFFFF;
+}
+
+.container .info {
+    margin-top: 25px;
+    width: 135px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.container .info h1 {
+    margin-right: 10px;
+    font-size: 18px;
+    line-height: 18px;    
+    color: #2E3349;
+}
+
+.container .info span {
+    margin-top: -1px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #6B7082;
+}
+
+.container span {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #6B7082;
+}
+
+.container .reta {
+    margin-top: 30px;
+    width: 100%;
+    height: 1px;
+    background-color: #E8E9EC;
+}
+
+.container .social {
+    margin: 25px auto;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.followers, .likes, .photos {
+    text-align: center;
+}
+
+.followers h2, .likes h2, .photos h2 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #2E3349;
+}
+
+.followers span, .likes span, .photos span {
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 1.5px;
+    color: #6B7082;
+}
